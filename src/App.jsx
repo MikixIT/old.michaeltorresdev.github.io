@@ -1,13 +1,11 @@
-import { useState } from "react";
-
+import "./app.scss";
 function App() {
-  const [count, setCount] = useState(0);
-
-  return (
-    <>
-      <h1>Hello World by MikixIT</h1>
-    </>
-  );
+  <div>
+    <section>Hero</section>
+    <section>Parallax</section>
+    <section>Projects</section>
+    <section>Contact</section>
+  </div>;
 }
 
 export default App;
