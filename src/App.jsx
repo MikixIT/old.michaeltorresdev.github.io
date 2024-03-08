@@ -4,13 +4,17 @@ import Test from "./components/Test";
 function App() {
   return (
     <div>
-      {/* <section>
+      <section>
         <Navbar />
       </section>
-      <section>Parallax</section>
-      <section>Projects</section>
-      <section>Contact</section> */}
-      <Test />
+      {/* <section>Parallax</section>
+      <section>Projects</section> */}
+      <section>
+        <Test />
+      </section>
+      <section>
+        <Test />
+      </section>
     </div>
   );
 }
