@@ -8,8 +8,8 @@ function App() {
         <Navbar />
         <Sidebar />
       </section>
-      <section></section>
-      <section></section>
+      <section>q</section>
+      <section>a</section>
     </div>
   );
 }
