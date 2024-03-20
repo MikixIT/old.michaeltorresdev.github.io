@@ -2,7 +2,7 @@ import React from "react";
 import "./sidebar.scss";
 import { motion } from "framer-motion";
 import Links from "./links/Links";
-import ToggleButton from "./toggleButton/ToggleButton.jsx";
+import ToggleBut from "./toggleBut/ToggleBut";
 
 function Sidebar() {
   return (
@@ -10,7 +10,7 @@ function Sidebar() {
       <div className="bg">
         <Links />
       </div>
-      <ToggleButton />
+      <ToggleBut />
     </div>
   );
 }
