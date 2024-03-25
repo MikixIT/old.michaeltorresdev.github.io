@@ -2,7 +2,7 @@ import "./toggleBut.scss";
 import React from "react";
 
 function ToggleBut() {
-  return <div>ToggleButton</div>;
+  return <button></button>;
 }
 
 export default ToggleBut;

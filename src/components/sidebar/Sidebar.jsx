@@ -7,7 +7,7 @@ import ToggleBut from "./toggleBut/ToggleBut";
 function Sidebar() {
   return (
     <div className="sidebar">
-      <div className="bg">
+      <div className="background">
         <Links />
       </div>
       <ToggleBut />
