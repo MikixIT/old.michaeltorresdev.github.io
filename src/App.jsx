@@ -4,12 +4,14 @@ import Sidebar from "./components/sidebar/Sidebar";
 function App() {
   return (
     <div>
-      <section>
+      <section id="Homepage">
         <Navbar />
         <Sidebar />
+        Homepage
       </section>
-      <section>q</section>
-      <section>a</section>
+      <section id="Services">Services</section>
+      <section id="Portfolio">PORTOLIO</section>
+      <section id="Contact">Contact</section>
     </div>
   );
 }
