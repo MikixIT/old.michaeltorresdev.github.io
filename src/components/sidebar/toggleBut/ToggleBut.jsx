@@ -1,8 +1,8 @@
 import "./toggleBut.scss";
 import React from "react";
 
-function ToggleBut() {
-  return <button></button>;
-}
+const ToggleBut = ({ setOpen }) => {
+  return <button onClick={() => setOpen((prev) => !prev)}>AAA </button>;
+};
 
 export default ToggleBut;
