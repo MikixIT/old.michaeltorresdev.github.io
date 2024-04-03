@@ -28,15 +28,9 @@ section {
   font-weight: 500;
 }
 
-.course {
-  height: 100vh;
+section:not(:first-child) {
   display: flex;
   align-items: center;
   justify-content: center;
-
-  .box {
-    width: 200px;
-    height: 200px;
-    background-color: white;
-  }
+  text-align: center;
 }
