@@ -3,11 +3,11 @@ import "../sidebar.scss";
 import React from "react";
 
 function Links() {
-  const items = ["Homepage", "Services", "Portfolio", "Contact"];
+  const sections = ["Homepage", "Services", "Portfolio", "Contact"];
 
   return (
     <div className="links">
-      {items.map((item) => (
+      {sections.map((item) => (
         <a href={`#${item}`} key={item}>
           {item}
         </a>
