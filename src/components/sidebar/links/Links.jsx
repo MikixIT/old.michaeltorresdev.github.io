@@ -37,7 +37,7 @@ function Links() {
           href={`#${item}`}
           key={item}
           variants={itemVariants}
-          whileTap={{ scale: 1.2 }}
+          whileTap={{ scale: 0.7 }}
           whileHover={{ scale: 1.1 }}
         >
           {item}
