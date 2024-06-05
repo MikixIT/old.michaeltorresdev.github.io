@@ -9,17 +9,11 @@ function Navbar() {
       <div className="wrapper">
         <motion.span>MT Dev</motion.span>
         <div className="social">
-          <a href="#">
-            <img src="./src/assets/img/placeholder.png" alt="" />
+          <a href="https://github.com/MikixIT/">
+            <img src="/src/assets/img/github-logo.png" alt="" />
           </a>
-          <a href="#">
-            <img src="./src/assets/img/placeholder.png" alt="" />
-          </a>
-          <a href="#">
-            <img src="./src/assets/img/placeholder.png" alt="" />
-          </a>
-          <a href="#">
-            <img src="./src/assets/img/placeholder.png" alt="" />
+          <a href="https://www.linkedin.com/in/michaeltorresdeveloper/">
+            <img src="./src/assets/img/linkedin-logo.png" alt="" />
           </a>
         </div>
       </div>

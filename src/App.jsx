@@ -9,7 +9,6 @@ function App() {
         <Navbar />
         <Hero />
         <Sidebar />
-        Homepage
       </section>
       <section id="Services">Services</section>
       <section id="Portfolio">PORTOLIO</section>

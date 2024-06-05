@@ -1,7 +1,7 @@
 .navbar {
   height: 100px;
-  padding: 3vh;
-  margin-left: 1vh;
+  padding: 4vh;
+  margin-left: 8vh;
 
   .wrapper {
     max-width: 1366px;
@@ -21,8 +21,9 @@
     gap: 20px;
 
     img {
-      width: 18px;
-      height: 18px;
+      width: 32px;
+      height: 32px;
+      max-width: 32px;
     }
   }
 }
