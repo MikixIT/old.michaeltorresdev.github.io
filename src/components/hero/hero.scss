@@ -3,12 +3,23 @@
   justify-content: flex-end;
   align-items: center;
   position: relative;
+
+  img {
+    height: calc(100vh - 100px);
+    overflow: hidden;
+    margin: auto;
+  }
 }
 
 .wrapper {
   height: 100%;
   max-width: 1366px;
   margin: auto;
+
+  img {
+    max-height: 40px;
+    max-width: 40px;
+  }
 
   .textContainer {
     height: 100%;
@@ -27,11 +38,6 @@
       width: 50px;
     }
   }
-}
-
-.wrapper img {
-  max-height: 40px;
-  max-width: 40px;
 }
 
 .hero img {
