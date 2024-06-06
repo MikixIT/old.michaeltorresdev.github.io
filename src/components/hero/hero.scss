@@ -9,6 +9,24 @@
   height: 100%;
   max-width: 1366px;
   margin: auto;
+
+  .textContainer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+
+    h2 {
+      font-size: 30px;
+      color: purple;
+      letter-spacing: 10px;
+    }
+
+    img {
+      width: 50px;
+    }
+  }
 }
 
 .wrapper img {
@@ -27,7 +45,7 @@
 // }
 
 .imgContainer {
-  height: 100vh;
+  height: 100%;
   position: absolute;
   top: 0;
   right: 0;
