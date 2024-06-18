@@ -28,8 +28,8 @@ a {
 }
 
 section {
-  height: 100vh;
-  scroll-snap-align: center;
+  min-height: 100vh;
+  scroll-snap-align: start;
   font-weight: 500;
 }
 
