@@ -4,7 +4,10 @@ import { motion } from "framer-motion";
 
 const ToggleBut = ({ setOpen }) => {
   return (
-    <button onClick={() => setOpen((prev) => !prev)}>
+    <motion.button
+      whileHover={{ scale: 0.9 }}
+      onClick={() => setOpen((prev) => !prev)}
+    >
       <motion.svg width="23" height="23" viewBox="0 0 23 23">
         <motion.path
           strokeWidth="3"
@@ -35,7 +38,7 @@ const ToggleBut = ({ setOpen }) => {
           }}
         />
       </motion.svg>
-    </button>
+    </motion.button>
   );
 };
 

@@ -9,12 +9,20 @@ function Navbar() {
       <div className="wrapper">
         <motion.span>MT Dev</motion.span>
         <div className="social">
-          <a href="https://github.com/MikixIT/">
+          <motion.a
+            whileTap={{ scale: 0.7 }}
+            whileHover={{ scale: 1.2 }}
+            href="https://github.com/MikixIT/"
+          >
             <img src="/src/assets/img/github-logo.png" alt="" />
-          </a>
-          <a href="https://www.linkedin.com/in/michaeltorresdeveloper/">
+          </motion.a>
+          <motion.a
+            whileTap={{ scale: 0.7 }}
+            whileHover={{ scale: 1.2 }}
+            href="https://www.linkedin.com/in/michaeltorresdeveloper/"
+          >
             <img src="./src/assets/img/linkedin-logo.png" alt="" />
-          </a>
+          </motion.a>
         </div>
       </div>
     </div>
